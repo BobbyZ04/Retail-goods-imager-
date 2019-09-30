@@ -4,3 +4,8 @@ Garbage Classification is one of the most efficient way to improve the situation
 Many people are still not aware of the exact classification of different kinds of garbage, for example, toxic, recycle, kitchen...
 As the department of the environmental protection, we want to build a garbage classifier so that people can classify the garbage more easily.
 So that we could improve the accuracy of garbage classification and reduce the workload for urrban cleaning department.
+
+
+Possible Solutions:
+1.Naive Bayes
+2.RNN

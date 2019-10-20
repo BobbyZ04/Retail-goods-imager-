@@ -13,6 +13,6 @@ So that we could improve the accuracy of garbage classification and reduce the w
 4.YOLO
 
 ## Setting up environment
-`pip install Tensorflow`Download package for CPU only for more stable performance, and as a simple test, we do not need to use GPU.
-`docker pull tensorflow/tensorflow`use Docker to run tensorflow.`docker run -it -p 8888:8888 tensorflow/tensorflow`Start a Jupyter notebook serve.
+`pip install Tensorflow`Download package for CPU only for more stable performance.
+<br/>`docker pull tensorflow/tensorflow`use Docker to run tensorflow.`docker run -it -p 8888:8888 tensorflow/tensorflow`Start a Jupyter notebook serve.
 

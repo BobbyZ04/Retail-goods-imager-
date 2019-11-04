@@ -21,7 +21,8 @@ As the department of the environmental protection, we want to build a garbage cl
 <br/>NumBins: A positive scalar that specifies the number of bins in the orientation histograms. Increase this value to encode finer orientation details.
 <br/>UseSignedOrientation: A logical scalar. When true, orientation values are binned into evenly spaced bins between -180 and 180 degrees. Otherwise, the orientation values are binned between 0 and 180 where values of theta less than 0 are placed into theta + 180 bins. Using signed orientations can help differentiate light to dark vs. dark to light transitions within an image region.
 
-## Setting up environment
+## RNN
+### Setting up environment
 `pip install Tensorflow`Download package for CPU only for more stable performance.
 <br/>`pip install tf-nightly`Download package built for CPU/GPU.
 <br/>`docker pull tensorflow/tensorflow`use Docker to run tensorflow.`docker run -it -p 8888:8888 tensorflow/tensorflow`Start a Jupyter notebook serve.

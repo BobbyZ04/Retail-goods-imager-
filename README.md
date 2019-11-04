@@ -13,7 +13,7 @@ As the department of the environmental protection, we want to build a garbage cl
 4.YOLO
 
 ## SVM
-1.hop features extraction
+# 1.hop features extraction
 <br/>parameters selection
 <br/>CellSize： A 2-element vector that specifies the size of a HOG cell in pixels. Select larger cell sizes to capture large scale spatial information at the cost of loosing small scale detail.
 <br/>BlockSize： A 2-element vector that specifies the number of cells in a block. Large block size values reduce the ability to minimize local illumination changes.

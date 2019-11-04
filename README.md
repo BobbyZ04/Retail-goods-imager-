@@ -14,7 +14,7 @@ As the department of the environmental protection, we want to build a garbage cl
 
 ## SVM
 ### 1.hop features extraction
-<br/>parameters selection
+parameters selection
 <br/>CellSize： A 2-element vector that specifies the size of a HOG cell in pixels. Select larger cell sizes to capture large scale spatial information at the cost of loosing small scale detail.
 <br/>BlockSize： A 2-element vector that specifies the number of cells in a block. Large block size values reduce the ability to minimize local illumination changes.
 <br/>BlockOverlap： A 2-element vector that specifies the number of overlapping cells between adjacent blocks. Select an overlap of at least half the block size to ensure adequate contrast normalization. Larger overlap values can capture more information at the cost of increased feature vector size. This property has no effect when extracting HOG features around point locations.

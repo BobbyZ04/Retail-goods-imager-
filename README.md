@@ -25,11 +25,13 @@ number = k(k-1)/2
 
 
 
-## RNN
+## faster-rcnn
 ### Setting up environment
 `pip install Tensorflow`Download package for CPU only for more stable performance.
 <br/>`pip install tf-nightly`Download package built for CPU/GPU.
 <br/>`docker pull tensorflow/tensorflow`use Docker to run tensorflow.`docker run -it -p 8888:8888 tensorflow/tensorflow`Start a Jupyter notebook serve.
+Docker is a platform for developers and sysadmins to build, share, and run applications with containers. 
+Fundamentally, a container is nothing but a running process, with some added encapsulation features applied to it in order to keep it isolated from the host and from other containers.
 <br/>Linux setup `wget http://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run`
 <br/>`sudo sh cuda_10.1.243_418.87.00_linux.run`
 

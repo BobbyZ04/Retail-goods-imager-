@@ -37,6 +37,8 @@ Fundamentally, a container is nothing but a running process, with some added enc
 <br/>Linux setup `wget http://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run`
 <br/>`sudo sh cuda_10.1.243_418.87.00_linux.run`
 
-![avatar](C:\Users\Bo Zhang\Documents\docker.png)
+![avatar](/user/Documents/doge.png)
+
+
 
 

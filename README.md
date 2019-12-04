@@ -38,6 +38,9 @@ Fundamentally, a container is nothing but a running process, with some added enc
 <br/>`sudo sh cuda_10.1.243_418.87.00_linux.run`
 
 ![avatar](/user/desktop/docker.png)
+<br/>after setting up the docker container, start the machine we need `$ docker-machine start`
+<br/>start the tensorflow`$ docker run -it tensorflow/tensorflow bash`
+
 
 
 

@@ -40,6 +40,7 @@ Fundamentally, a container is nothing but a running process, with some added enc
 ![avatar](/user/desktop/docker.png)
 <br/>after setting up the docker container, start the machine we need `$ docker-machine start`
 <br/>start the tensorflow`$ docker run -it tensorflow/tensorflow bash`
+<br/>download jupyter notebook as coding environment.
 
 
 

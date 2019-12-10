@@ -43,6 +43,7 @@ Fundamentally, a container is nothing but a running process, with some added enc
 <br/>download jupyter notebook as coding environment.`docker run --remove -P jupyter/base-notebook`
 <br/>run tensorflow from jupyter.`docker run -it -p 8888:8888 tensorflow/tensorflow:nightly-py3-jupyter`
 <br/>got http://127.0.0.1:8888/?token=xxx from the docker container, enter into it to run the jupyter for NN algorithms.
+<br/>To get a quick show of our thoughts, we decided to import `kera` which is an api developed by tensorflow supporting neural networks and GPU/CPU methods.
 
 
 

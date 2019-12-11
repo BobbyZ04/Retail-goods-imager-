@@ -44,7 +44,8 @@ Fundamentally, a container is nothing but a running process, with some added enc
 <br/>run tensorflow from jupyter.`docker run -it -p 8888:8888 tensorflow/tensorflow:nightly-py3-jupyter`
 <br/>got http://127.0.0.1:8888/?token=xxx from the docker container, enter into it to run the jupyter for NN algorithms.
 <br/>To get a quick show of our thoughts, we decided to import `kera` which is an api developed by tensorflow supporting neural networks and GPU/CPU modes.
-
+<br/>
+<br/>To enter the folders and programs we added before, use `$ docker start bold_bhabha`, `$ docker attach bold_bhabha` which is the name of our container. Then use `root@996b36841914:/tf# jupyter notebook --ip 0.0.0.0 --allow-root --port 8888 --no-browser` to check the token of our jupyter notebook so we can use it in the browser.
 
 
 

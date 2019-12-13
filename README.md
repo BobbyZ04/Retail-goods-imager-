@@ -50,3 +50,11 @@ Fundamentally, a container is nothing but a running process, with some added enc
 ### main function
 </br> the main function is uploaded, also with the dataset.
 
+</br> We just followed the tutorial of Tensorflow, in Jupyternotebook, which includes a MIT liscense. The tutorial document is easy to understand but too simple, so I graded it for 3. We modified the model by adding 3 convolution layrs and pooling. Changed the dense, batch, imagesize and epoch attributes. We also added our own dataset to train and test rather than using the dataset in Kera API. Finally we output our presiction results in images with labels which is not accomplished in the original document.
+https://www.tensorflow.org/tutorials/keras/classification
+</br> totally 2391 images in 5 categories: cardboard, glass, metal, paper and plastic. The quality of photos is good with different kinds and different angles of objects.
+https://github.com/zhangb96/Retail-goods-imager-/tree/master/dataset-resized/dataset-resized 
+</br> SVM in Matlab and CNN(kera model) in Tensorflow, run by jupyter in Docker Container in Win10.
+For SVM, the key part is the feature extraction, to exract color, shape of different objects. Then we applied the function 'fitcecoc(featuresTrain,trainLabels)' in MATLAB, and had our results printed out. For this part we did not use any additional open resources. The result is good with clean background images but had problem recognizing objects in noisy background.
+For CNN in Tensorflow, we did a huge amount of work setting up environments in Windows like Docker, Jupyter, Tensorflow etc. We ran the tensorflow tutorial and find the classification result of CNN was pretty good and had high efficiency. So we modified the model in Tensorflow(kera API), added 3 convolution and pooling layers, parameters, dataset of our own and achieved an accuracy over 0.94 and loss less then 0.15, which is quite exciting. We tested images with noisy background and it successfully classified them. The whole classification process is short even we cannot notice it, quite efficient for our work. So the model is good to choose in our opinion.  
+

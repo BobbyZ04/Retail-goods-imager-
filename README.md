@@ -25,7 +25,7 @@ number = k(k-1)/2
 
 
 
-## faster-rcnn
+## rcnn
 ### Setting up environment
 `pip install Tensorflow`Download package for CPU only for more stable performance.
 <br/>`pip install tf-nightly`Download package built for CPU/GPU.
@@ -47,5 +47,6 @@ Fundamentally, a container is nothing but a running process, with some added enc
 <br/>
 <br/>To enter the folders and programs we added before, use `$ docker start bold_bhabha`, `$ docker attach bold_bhabha` which is the name of our container. Then use `root@996b36841914:/tf# jupyter notebook --ip 0.0.0.0 --allow-root --port 8888 --no-browser` to check the token of our jupyter notebook so we can use it in the browser.
 
-
+### main function
+</br> the main function is uploaded, also with the dataset.
 

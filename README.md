@@ -11,6 +11,10 @@ As the department of the environmental protection, we want to build a garbage cl
 2.CNN
 
 ## Folders in this Project 
+<br/>data-resized is for the data training data
+<br/>architecture is the input and output for the whole system.
+<br/>hogsvm is the SVM algorithm in MATLAB.
+<br/>CNN-tensorflow is the CNN algorithm in python. 
 
 
 ## SVM
@@ -26,7 +30,7 @@ number = k(k-1)/2
 
 
 
-## rcnn
+## cnn
 ### Setting up environment
 `pip install Tensorflow`Download package for CPU only for more stable performance.
 <br/>`pip install tf-nightly`Download package built for CPU/GPU.

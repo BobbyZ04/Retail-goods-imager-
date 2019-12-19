@@ -44,7 +44,6 @@ Fundamentally, a container is nothing but a running process, with some added enc
 <br/>Linux setup `wget http://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run`
 <br/>`sudo sh cuda_10.1.243_418.87.00_linux.run`
 
-![avatar](/user/desktop/docker.png)
 <br/>after setting up the docker container, start the machine we need `$ docker-machine start`
 <br/>start the tensorflow`$ docker run -it tensorflow/tensorflow bash`
 <br/>download jupyter notebook as coding environment.`docker run --remove -P jupyter/base-notebook`

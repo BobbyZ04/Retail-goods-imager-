@@ -14,7 +14,8 @@ As the department of the environmental protection, we want to build a garbage cl
 <br/>data-resized is for the data training data
 <br/>architecture is the input and output for the whole system.
 <br/>hogsvm is the SVM algorithm in MATLAB.
-<br/>CNN-tensorflow is the CNN algorithm in python. 
+<br/>tensorflow-CNN is the CNN algorithm in python. 
+<br/>results-example shows the result of the two methods we implemented.
 
 
 ## SVM

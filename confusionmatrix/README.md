@@ -1,2 +1,3 @@
-This is the confusion matrix of the method, explaining the results of the classification. The lighter the diagnal is, the darker the rest area is, 
-the better the result is.
+This is the confusion matrix of the method, explaining the results of the classification. The lighter the diagnal is, the darker the rest area is, the better the result is.
+<br/>To compare the prediction results of these two methods, except the resutls we can see in the previous pictures by our eyes, we can also tell it from the confusion matrix. The result of glass and plastic recogonition of SVM turned out to be worse than CNN. 
+<br/>The most important thing is, the SVM took more time to deal with large amount of data and we only tested for dozens of pics. CNN can handle large amount of data better.

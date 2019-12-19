@@ -8,9 +8,10 @@ As the department of the environmental protection, we want to build a garbage cl
 
 ## Possible Solutions
 1.SVM
-2.RNN
-3.RCNN
-4.YOLO
+2.CNN
+
+## Folders in this Project 
+
 
 ## SVM
 ### 1.hop features extraction

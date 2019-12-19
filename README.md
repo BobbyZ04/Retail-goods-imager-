@@ -16,6 +16,7 @@ As the department of the environmental protection, we want to build a garbage cl
 <br/>hogsvm is the SVM algorithm in MATLAB.
 <br/>tensorflow-CNN is the CNN algorithm in python. 
 <br/>results-example shows the result of the two methods we implemented.
+<br/>confusion matrix is the confusion matrix of our method. Showing the result of the prediction.
 
 
 ## SVM
